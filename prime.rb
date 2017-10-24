@@ -1,5 +1,5 @@
 def prime?(int)
-  if int < 1
+  if int < 2
     return false
   else
     collection = (2..100).to_a
