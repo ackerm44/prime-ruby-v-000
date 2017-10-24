@@ -1,7 +1,7 @@
 def prime?(int)
   if collection < 1
     return false
-  else  
+  else
     collection = (2..100).to_a
     collection.delete_if {|i| i == int}
     collection.none? {|i| int % i == 0 and int > 0}
